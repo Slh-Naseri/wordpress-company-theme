@@ -8,10 +8,11 @@ function add_files()
     wp_enqueue_style('main_style', get_stylesheet_uri());
     wp_enqueue_style('style_1', get_theme_file_uri( '/build/index.css' ));
     wp_enqueue_style('style_2', get_theme_file_uri('/build/style-index.css'));
-    
-
 }
-
 add_action('wp_enqueue_scripts', 'add_files');
 
+function Payam_Avaran(){
+    add_theme_support( 'title-tag');
+}
+add_action('after_setup_theme', 'Payam_Avaran');
 ?>
