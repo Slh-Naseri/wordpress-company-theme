@@ -3,3 +3,12 @@ Theme Name: company theme
 Author: naseri
 Version: 1.0.6
 */
+@font-face {
+    font-family: 'Shabnam';
+    src: url('fonts/Shabnam.eot?#') format('eot'),
+    url('fonts/Shabnam.woff') format('woff'),
+    url('fonts/Shabnam.ttf') format('truetype');
+}
+*{
+    font-family:'Shabnam';
+}
