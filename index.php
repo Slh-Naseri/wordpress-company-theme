@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
 <div class="page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri( '/images/library-hero.jpg' ); ?>)"></div>
+    <div class="page-banner__bg-image"
+        style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg'); ?>)"></div>
     <div class="page-banner__content container t-center c-white">
         <h1 class="headline headline--large">Welcome!</h1>
         <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
@@ -78,7 +79,8 @@
 <div class="hero-slider">
     <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg'); ?>)">
+            <div class="hero-slider__slide"
+                style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg'); ?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
                         <h2 class="headline headline--medium t-center">Free Transportation</h2>
@@ -87,7 +89,8 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg'); ?>)">
+            <div class="hero-slider__slide"
+                style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg'); ?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
                         <h2 class="headline headline--medium t-center">An Apple a Day</h2>
@@ -96,7 +99,8 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg'); ?>)">
+            <div class="hero-slider__slide"
+                style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg'); ?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
                         <h2 class="headline headline--medium t-center">Free Food</h2>
@@ -109,5 +113,77 @@
         <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
     </div>
 </div>
+
+
+
+<div class="container">
+    <div class="layout_padding">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-xs-12 padding_right_0 order-lg-1 order-sm-2">
+                <div class="services_box">
+                    <div>
+                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
+                        <div class="text_box">
+                            <time class="express_text">24/8/1401</time>
+                            <h6 class="lorem_text">این یک متن آزمایشی است </h6>
+                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
+                        <div class="text_box">
+                            <time class="express_text">24/8/1401</ح>
+                                <h6 class="lorem_text">این یک متن آزمایشی است</h6>
+                                <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xs-12 padding_0 center_box order-lg-2 order-sm-1">
+                <div class="services_box">
+                    <div>
+                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
+                        <div class="text_box">
+                            <time class="express_text">24/8/1401</time>
+                            <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12 padding_left_0 order-lg-3 order-sm-3">
+                <div class="services_box">
+                    <div>
+                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
+                        <div class="text_box">
+                            <time class="express_text">24/8/1401</time>
+                            <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
+                        <div class="text_box">
+                            <time class="express_text">24/8/1401</time>
+                            <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 
+<div class="grid-container">
+    <div class="grid-item1">1jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</div>
+    <div class="grid-item2">2</div>
+    <div class="grid-item3">3</div>
+    <div class="grid-item4">4</div>
+    <div class="grid-item5">5</div>
+    <div class="grid-item6">6</div>
+    <div class="grid-item7">7</div>
+    <div class="grid-item8">8</div>
+</div> -->
 
 <?php get_footer(); ?>
