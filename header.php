@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 
-<body <?php body_class(); ?>>
+<body style="direction: rtl;" <?php body_class(); ?>>
     <header class="site-header">
         <div class="container">
             <h1 class="school-logo-text float-left">
@@ -20,10 +20,10 @@
             <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
             <div class="site-header__menu group">
                 <nav class="main-navigation">
-                    <ul>
+                    <ul style="text-align: right;">
                         <li><a href="<?php echo site_url('/about-us')?>">درباره ما</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Programs</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">پروژه ها</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item text-success" href="#">تست</a>
                                 <a class="dropdown-item text-success" href="#">تست22222</a>
@@ -33,9 +33,7 @@
                                 <a class="dropdown-item text-success" href="#">تست 666666</a>
                             </div>
                         </li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Campuses</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">صفحه اصلی</a></li>
                     </ul>
                 </nav>
                 <div class="site-header__util">

@@ -76,6 +76,7 @@
     </div>
 </div>
 
+
 <div class="hero-slider">
     <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
@@ -119,71 +120,54 @@
 <div class="container">
     <div class="layout_padding">
         <div class="row">
-            <div class="col-lg-3 col-sm-6 col-xs-12 padding_right_0 order-lg-1 order-sm-2">
-                <div class="services_box">
-                    <div>
-                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
-                        <div class="text_box">
-                            <time class="express_text">24/8/1401</time>
-                            <h6 class="lorem_text">این یک متن آزمایشی است </h6>
-                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
-                        </div>
+            <div class="col-lg-3 col-sm-6  padding_right_0 order-lg-1 order-sm-2">
+                <div class="news_box" onclick="window.location='';">
+                    <img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
+                    <div class="text_box">
+                        <time class="express_text">24/8/1401</time>
+                        <h6 class="lorem_text">این یک متن آزمایشی است </h6>
+                        <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
                     </div>
-                    <div>
-                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
-                        <div class="text_box">
-                            <time class="express_text">24/8/1401</ح>
-                                <h6 class="lorem_text">این یک متن آزمایشی است</h6>
-                                <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
-                        </div>
+                </div>
+                <div class="news_box" onclick="window.location='';">
+                    <img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
+                    <div class="text_box">
+                        <time class="express_text">24/8/1401</ح>
+                            <h6 class="lorem_text">این یک متن آزمایشی است</h6>
+                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-xs-12 padding_0 center_box order-lg-2 order-sm-1">
-                <div class="services_box">
-                    <div>
-                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
-                        <div class="text_box">
-                            <time class="express_text">24/8/1401</time>
-                            <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
-                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
-                        </div>
+            <div class="col-lg-6  padding_0 center_box order-lg-2 order-sm-1">
+                <div class="news_box" onclick="window.location='';">
+                    <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div class="text_box">
+                        <time class="express_text">24/8/1401</time>
+                        <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+                        <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 padding_left_0 order-lg-3 order-sm-3">
-                <div class="services_box">
-                    <div>
-                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
-                        <div class="text_box">
-                            <time class="express_text">24/8/1401</time>
-                            <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
-                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
-                        </div>
+            <div class="col-lg-3 col-sm-6 padding_left_0 order-lg-3 order-sm-3">
+                <div class="news_box" onclick="window.location='';">
+                    <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div class="text_box">
+                        <time class="express_text">24/8/1401</time>
+                        <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+                        <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
                     </div>
-                    <div>
-                        <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="image_1"></div>
-                        <div class="text_box">
-                            <time class="express_text">24/8/1401</time>
-                            <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
-                            <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
-                        </div>
+                </div>
+                <div class="news_box" onclick="window.location='';">
+                    <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div class="text_box">
+                        <time class="express_text">24/8/1401</time>
+                        <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+                        <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- 
-<div class="grid-container">
-    <div class="grid-item1">1jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</div>
-    <div class="grid-item2">2</div>
-    <div class="grid-item3">3</div>
-    <div class="grid-item4">4</div>
-    <div class="grid-item5">5</div>
-    <div class="grid-item6">6</div>
-    <div class="grid-item7">7</div>
-    <div class="grid-item8">8</div>
-</div> -->
 
 <?php get_footer(); ?>
