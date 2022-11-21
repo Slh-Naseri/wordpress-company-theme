@@ -11,7 +11,7 @@
         <a href="#" class="btn btn--large btn--blue">Find Your Major</a>
     </div>
 </div>
-
+<!-- 
 <div class="full-width-split group">
     <div class="full-width-split__one">
         <div class="full-width-split__inner">
@@ -74,55 +74,46 @@
             <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p>
         </div>
     </div>
-</div>
+</div> -->
 
-
-<div class="hero-slider">
-    <div data-glide-el="track" class="glide__track">
-        <div class="glide__slides">
-            <div class="hero-slider__slide"
-                style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg'); ?>)">
-                <div class="hero-slider__interior container">
-                    <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Free Transportation</h2>
-                        <p class="t-center">All students have free unlimited bus fare.</p>
-                        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-slider__slide"
-                style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg'); ?>)">
-                <div class="hero-slider__interior container">
-                    <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-                        <p class="t-center">Our dentistry program recommends eating apples.</p>
-                        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-slider__slide"
-                style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg'); ?>)">
-                <div class="hero-slider__interior container">
-                    <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Free Food</h2>
-                        <p class="t-center">Fictional University offers lunch plans for those in need.</p>
-                        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
     </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
-
-
 
 <div class="container">
     <div class="layout_padding">
         <div class="row">
             <div class="col-lg-3 col-sm-6  padding_right_0 order-lg-1 order-sm-2">
                 <div class="news_box" onclick="window.location='';">
-                    <img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
+                    <img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
                     <div class="text_box">
                         <time class="express_text">24/8/1401</time>
                         <h6 class="lorem_text">این یک متن آزمایشی است </h6>
@@ -130,9 +121,9 @@
                     </div>
                 </div>
                 <div class="news_box" onclick="window.location='';">
-                    <img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
+                    <img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
                     <div class="text_box">
-                        <time class="express_text">24/8/1401</ح>
+                        <time class="express_text">24/8/1401</time>
                             <h6 class="lorem_text">این یک متن آزمایشی است</h6>
                             <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div>
                     </div>
@@ -140,7 +131,7 @@
             </div>
             <div class="col-lg-6  padding_0 center_box order-lg-2 order-sm-1">
                 <div class="news_box" onclick="window.location='';">
-                    <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
                         <time class="express_text">24/8/1401</time>
                         <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
@@ -150,7 +141,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 padding_left_0 order-lg-3 order-sm-3">
                 <div class="news_box" onclick="window.location='';">
-                    <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
                         <time class="express_text">24/8/1401</time>
                         <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
@@ -158,7 +149,7 @@
                     </div>
                 </div>
                 <div class="news_box" onclick="window.location='';">
-                    <div><img src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
                         <time class="express_text">24/8/1401</time>
                         <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
