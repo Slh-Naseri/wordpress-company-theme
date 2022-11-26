@@ -8,7 +8,7 @@
         <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
         <h3 class="headline headline--small">Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re
             interested in?</h3>
-        <a href="#" class="btn btn--large btn--white">Find Your Major</a>
+        <a href="#" class="btn btn--large btn--blue">Find Your Major</a>
     </div>
 </div>
 <!-- 
@@ -111,48 +111,82 @@
 <div class="container box_container">
     <div class="layout_padding">
         <div class="row">
-            <div class="col-lg-3 col-sm-6  padding_right_0 order-lg-1 order-sm-2">
-                <div class="news_box" onclick="window.location='';">
+            <div class="col-lg-3 col-sm-6  padding_right_0 order-lg-3 order-sm-3">
+                <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
                     <img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
                     <div class="text_box">
-                        <time class="express_text">24/8/1401</time>
-                        <h6 class="lorem_text">این یک متن آزمایشی است </h6>
+                        <?php $post = get_post(1);
+                        setup_postdata($post); ?>
+                        <h5 class="title_box">
+                            <?php the_title(); ?>
+                        </h5>
+                        <p>
+                            <?php echo wp_trim_words(get_the_content(), 10); ?>
+                        </p>
                         <!-- <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div> -->
                     </div>
                 </div>
-                <div class="news_box" onclick="window.location='';">
+                <?php $post = get_post(40);
+                        setup_postdata($post); ?>
+                <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
                     <img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
                     <div class="text_box">
-                        <time class="express_text">24/8/1401</time>
-                        <h6 class="lorem_text">این یک متن آزمایشی است</h6>
+                        
+                        <h5 class="title_box">
+                            <?php the_title(); ?>
+                        </h5>
+                        <p>
+                            <?php echo wp_trim_words(get_the_content(), 10); ?>
+                        </p>
                         <!-- <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div> -->
                     </div>
                 </div>
             </div>
             <div class="col-lg-6  padding_0 center_box order-lg-2 order-sm-1">
-                <div class="news_box" onclick="window.location='';">
+                <?php $post = get_post(38);
+                        setup_postdata($post); ?>
+                <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
                     <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
-                        <time class="express_text">24/8/1401</time>
-                        <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+                        
+                        <h5 class="title_box">
+                            <?php the_title(); ?>
+                        </h5>
+                        <p>
+                            <?php echo wp_trim_words(get_the_content(), 18); ?>
+                        </p>
                         <!-- <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div> -->
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 padding_left_0 order-lg-3 order-sm-3">
-                <div class="news_box" onclick="window.location='';">
+            <div class="col-lg-3 col-sm-6 padding_left_0 order-lg-1 order-sm-2">
+                <?php $post = get_post(42);
+                        setup_postdata($post); ?>
+                <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
                     <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
-                        <time class="express_text">24/8/1401</time>
-                        <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+                        <h5 class="title_box">
+                            <?php the_title(); ?>
+                        </h5>
+                        <p>
+                            <?php echo wp_trim_words(get_the_content(), 10); ?>
+                        </p>
                         <!-- <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div> -->
                     </div>
                 </div>
-                <div class="news_box" onclick="window.location='';">
+                <?php $post = get_post(44);
+                setup_postdata($post); ?>
+                <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
                     <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
-                        <time class="express_text">24/8/1401</time>
-                        <h6 class="lorem_text">این یک متن آزمایشی ست</h6>
+
+                        <!-- <time class="express_text">24/8/1401</time> -->
+                        <h5 class="title_box">
+                            <?php the_title(); ?>
+                        </h5>
+                        <p>
+                            <?php echo wp_trim_words(get_the_content(), 10); ?>
+                        </p>
                         <!-- <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div> -->
                     </div>
                 </div>
