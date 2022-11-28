@@ -111,7 +111,7 @@
 <div class="container box_container">
     <div class="layout_padding">
         <div class="row">
-            <div class="col-lg-3 col-sm-6  padding_right_0 order-lg-3 order-sm-3">
+            <div class="col-lg-3 col-sm-6  padding_right_0 order-lg-3 order-2">
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
                     <img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
                     <div class="text_box">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6  padding_0 center_box order-lg-2 order-sm-1">
+            <div class="col-lg-6  padding_0 center_box order-lg-2 order-1">
                 <?php $post = get_post(38);
                         setup_postdata($post); ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
@@ -159,8 +159,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 padding_left_0 order-lg-1 order-sm-2">
-                <?php $post = get_post(42);
+            <div class="col-lg-3 col-sm-6 padding_left_0 order-lg-1 order-3">
+                <?php $post = get_post(73);
                         setup_postdata($post); ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
                     <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
@@ -174,7 +174,7 @@
                         <!-- <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div> -->
                     </div>
                 </div>
-                <?php $post = get_post(44);
+                <?php $post = get_post(72);
                 setup_postdata($post); ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
                     <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
