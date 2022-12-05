@@ -1,14 +1,14 @@
 <?php get_header(); ?>
 
 <div class="page-banner">
-    <div class="page-banner__bg-image"
-        style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg'); ?>)"></div>
-    <div class="page-banner__content container t-center c-white">
+    <div class="page-banner__bg-image"></div>
+    <img src="<?php echo get_theme_file_uri('/images/library-hero.jpg'); ?>" alt="">
+        <div class="page-banner__content container t-center c-white">
         <h1 class="headline headline--large">Welcome!</h1>
-        <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
+        <!-- <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
         <h3 class="headline headline--small">Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re
             interested in?</h3>
-        <a href="#" class="btn btn--large btn--blue">Find Your Major</a>
+        <a href="#" class="btn btn--large btn--blue">Find Your Major</a> -->
     </div>
 </div>
 <!-- 
@@ -113,7 +113,7 @@
         <div class="row">
             <div class="col-lg-3 col-sm-6  padding_right_0 order-lg-3 order-2">
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
-                    <img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
+                    <img class="rounded-3" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
                     <div class="text_box">
                         <?php $post = get_post(1);
                         setup_postdata($post); ?>
@@ -129,7 +129,7 @@
                 <?php $post = get_post(40);
                         setup_postdata($post); ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
-                    <img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
+                    <img class="rounded-3" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>">
                     <div class="text_box">
                         
                         <h5 class="title_box">
@@ -146,7 +146,7 @@
                 <?php $post = get_post(38);
                         setup_postdata($post); ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
-                    <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div><img class="rounded-3" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
                         
                         <h5 class="title_box">
@@ -163,7 +163,7 @@
                 <?php $post = get_post(73);
                         setup_postdata($post); ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
-                    <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div><img class="rounded-3" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
                         <h5 class="title_box">
                             <?php the_title(); ?>
@@ -177,7 +177,7 @@
                 <?php $post = get_post(72);
                 setup_postdata($post); ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
-                    <div><img class="radius" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
+                    <div><img class="rounded-3" src="<?php echo get_theme_file_uri('/images/apples.jpg'); ?>"></div>
                     <div class="text_box">
 
                         <!-- <time class="express_text">24/8/1401</time> -->
@@ -185,7 +185,7 @@
                             <?php the_title(); ?>
                         </h5>
                         <p>
-                            <?php echo wp_trim_words(get_the_content(), 10); ?>
+                            <?php echo wp_trim_words("جعبه های پویایی و پرورش خلاقیت"); ?>
                         </p>
                         <!-- <div class="seemore_bt"><a href="#">بیشتر ببینید</a></div> -->
                     </div>

@@ -3,8 +3,8 @@
 get_header(); ?>
 
 <div class="page-banner">
-  <div class="page-banner__bg-image"
-    style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg') ?>);"></div>
+  <div >
+  <img src="<?php echo get_theme_file_uri('/images/ocean.jpg') ?>" alt=""></div>
   <div class="page-banner__content container container--narrow">
     <h1 class="page-banner__title">پروژه ها</h1>
     <div class="page-banner__intro">
@@ -30,7 +30,7 @@ get_header(); ?>
       </p>
     </div>
 
-    <div class="generic-content">
+    <div>
       <?php the_excerpt(); ?>
       <p><a class="btn btn--blue" href="<?php the_permalink(); ?>">بیشتر بخوانید &raquo;</a></p>
     </div>

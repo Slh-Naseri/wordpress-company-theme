@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -62,10 +61,10 @@
                                 <a href="#" class="social-color-youtube"><i class="fa fa-youtube"
                                         aria-hidden="true"></i></a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#" class="social-color-linkedin"><i class="fa fa-linkedin"
                                         aria-hidden="true"></i></a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="#" class="social-color-instagram"><i class="fa fa-instagram"
                                         aria-hidden="true"></i></a>

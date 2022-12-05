@@ -14,11 +14,12 @@ function pageBanner()
 {
 ?>
 <div class="page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(<?php $pageBannerImage = get_field('page_banner_bg');
-    echo $pageBannerImage['sizes']['pageBanner'] ?>);"></div>
-    <div class="page-banner__content container container--narrow">
+    <div">
+    <img src="<?php $pageBannerImage = get_field('page_banner_bg');
+    echo $pageBannerImage['sizes']['pageBanner'] ?>" alt=""></div>
+    <div class="page-banner__content container">
         <h1 class="page-banner__title">
-            <?php the_title(); ?>
+            <?php the_field('title') ?>
         </h1>
         <div class="page-banner__intro">
             <p>
@@ -46,7 +47,7 @@ add_action('wp_enqueue_scripts', 'add_files');
 
 function add_features()
 {
-    add_image_size('pageBanner', 1500, 350, true);
+    add_image_size('pageBanner', 1920, 780, true);
 }
 
 add_action('after_setup_theme', 'add_features');
