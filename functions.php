@@ -14,7 +14,7 @@ function pageBanner()
 {
 ?>
 <div class="page-banner">
-    <div">
+    <div>
     <img src="<?php $pageBannerImage = get_field('page_banner_bg');
     echo $pageBannerImage['sizes']['pageBanner'] ?>" alt=""></div>
     <div class="page-banner__content container">

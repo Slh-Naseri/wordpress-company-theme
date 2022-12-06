@@ -1225,7 +1225,7 @@ body.admin-bar .search-overlay {
 .generic-content {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
-  padding: 50px 20px ;
+  /* padding: 50px 20px ; */
 } 
 .generic-content blockquote,
 .generic-content blockquote p {
@@ -1593,15 +1593,30 @@ body.admin-bar .search-overlay {
   line-height: 3rem;
 }
 
-.text_footer{
+.img_footer_text{
+  display: flex;
+  justify-content: center;
   font-size: small;
+  padding-bottom: 40px
 }
 .purple_title{
   color: #6117a7;
 }
 
-.bold_box_jopapel{
+.bold_box_post{
   border-radius: 10px;
   background-color: #caa1e936;
   font-weight: bold;
+  padding: 15px;
+  margin: 30px 0 30px 0;
+}
+
+.img_post{
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.img_container{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 12px 0;
 }

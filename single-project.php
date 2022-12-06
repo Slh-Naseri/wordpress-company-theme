@@ -142,6 +142,83 @@ m4v="http://localhost/wp/wp-content/uploads/2022/11/kaktoos-overview.m4v"][/vide
 </div> -->
 
 
+<!-- lebasino project -->
+<!-- <div class="container pt-2 pb-5 px-4 " style="text-align: right;">
+<div class="pt-3">
+
+در دنیایی که شاهد پیشرفت های چشمگیری در حوزه های مختلف هستیم هنوز مسائل و دغدغه هایی وجود دارد که راه حل شایسته و درخوری برای آنها داده نشده است. مشاهده می شود که به مسئله پوشیدگی و آراستگی اسلامی در جوامع بین المللی تا به حال به طور شایسته ای پرداخته نشده و به دغدغه های مهمی نظیر کیفیت بالای لباس، قیمت مناسب، تنوع بالا، در نظر گرفتن سلیقه شخصی در طراحی لباس، تناسب اندازه لباس با بدن شخص و همچنین راحتی و سرعت در فرآیند خرید لباس پاسخ مناسب و قانع کننده ای داده نشده است.
+<p class="bold_box_jopapel p-3 my-5">هدف تیم لباسینو تلاش برای رفع مسائل و دغدغه های مهم افراد در زمینه ی پوشیدگی و آراستگی اسلامی است که در این راستا تاکید ما روی نوآوری و خلاقیت مستمر هم در لباس و هم در روش تولید است چرا که روش های موجود نتوانسته اند مشکلات ذکر شده را به خوبی حل نمایند.</p>
+به همین منظور مزون لباسینو در تلاش است تا برای مشکلات و دغدغه های مهم افراد در زمینه پوشاک راه حل های کاربردی ارائه دهد. تا کنون مسائل گوناگونی در مزون لباسینو مورد بررسی قرار گرفته است و محصولات متعددی طراحی و تولید شده اند که در ادامه به برخی از آنها اشاره می شود.
+<p class="pt-3"><strong>دختران نونهال</strong> که به تازگی به سن تکلیف رسیده اند در شرایطی هستند که خانواده آنها تمایل دارد فرزند خود را به سمت حجاب تشویق کنند اما پیدا کردن لباسی که هم پوشیدگی مناسبی داشته باشد و هم متناسب با شور و نشاط و حال و هوای آن سنین باشد کار راحتی نخواهد بود. برای حل این مشکل مزون لباسینو با طراحی لباس های بسیار زیبا، با کیفیت، با رنگ بندی شاد، با استفاده از نقاشی های فانتزی و جذاب روی پارچه، و در عین حال با حفظ پوشیدگی مناسب سعی کرده مشکل خانواده ها را در تهیه لباس مناسب حل نماید.</p>
+
+<div class="p-3 d-flex justify-content-center"><img class="shadow rounded-3 col-md-5 aligncenter wp-image-91 size-full" src="http://localhost/wp/wp-content/uploads/2022/11/Picture1.png" /></div>
+<p class="text_footer d-flex justify-content-center">نمونه هایی از لباس برای دختران نونهال</p>
+<p class="pt-5">همچنین برای سنین<strong> نوجوانی</strong>، لباس هایی طراحی شده است که هم پوشیدگی مناسبی داشته و هم متناسب با مد روز است تا نیاز نوجوان برای بروز بودن برطرف شود.</p>
+
+<div class="p-3 d-flex justify-content-center"><img class="shadow rounded-3 col-md-5 aligncenter size-full wp-image-102" src="http://localhost/wp/wp-content/uploads/2022/11/Picture2.png" /></div>
+<p class="text_footer d-flex justify-content-center">نمونه هایی از لباس برای نوجوانان</p>
+<p class="pt-5">یکی دیگر از مسائل، داشتن لباس مناسب برای <strong>دورهمی های خودمانی</strong> است یعنی مهمانی هایی که در آن اقوام و آشنایان نزدیک حضور دارند. در این شرایط میزبان دوست ندارد یک لباس خیلی رسمی و دست و پا گیر بپوشد بلکه به دنبال لباسی است که در عین حفظ پوشیدگی، زیبا و صمیمی بوده و همچنین خیلی راحت باشد تا به سادگی بتواند پذیرایی و باقی کارها را انجام دهد. در این راستا نیز مزون لباسینو محصولاتی را ارائه داده است.</p>
+
+<div class="p-3 d-flex justify-content-center"><img class="shadow rounded-3 col-md-5 aligncenter size-full wp-image-102" src="http://localhost/wp/wp-content/uploads/2022/11/Picture3.png" /></div>
+<p class="text_footer d-flex justify-content-center">نمونه هایی از لباس برای دورهمی های خودمانی</p>
+
+</div>
+<div class="py-3">
+<p class="p-3 bold_box_jopapel mt-5">ما تیمی صمیمی، متعهد و با تخصص های مکمل شامل طراحان، خیاط ها، مهندسین کامپیوتر، برق و... هستیم و به خاطر داشته های ارزشمندمان خداوند بزرگ را شاکریم.</p>
+
+</div>
+</div> -->
 
 
+<!-- pro cloths -->
+<!-- <div class="container pt-4 pb-5 px-4 " style="text-align: right;">
+<div>
+<p>خرید پوشاک فرایندی است که تقریبا هر شخصی در طول سال یک یا چند مرتبه آن را برای تهیه لباس و کفش انجام می دهد. به طور کلی چند روش برای خرید پوشاک مطرح است؛ خرید حضوری و خرید اینترنتی که در هر کدام از این روش ها امکان خرید محصولات از پیش آماده شده و همچنین محصولات سفارشی با امکان شخصی سازی وجود دارد. در تمام این حالات مشتری نیاز دارد تا قبل از تکمیل خرید، پوشاک مورد نظر را پرو کرده و تن پوش آن را از ابعاد مختلفی مثل زیبایی، تناسب سایزی مناسب با بدن، تناسب طرح و رنگ پوشاک با رنگ پوست و... بررسی کند.</p>
 
+<p>در خرید حضوری پوشاک امکان پرو محصول وجود دارد اما متاسفانه در خرید اینترنتی این کار امکان پذیر نبوده و فقدان این مرحله ی مهم در فرایند خرید اینترنتی کاملا حس می شود. به همین علت ریسک بالایی در خرید پوشاک به صورت اینترنتی وجود دارد که باعث می شود خیلی از افراد به این روش اعتماد نکرده و خرید خود را به صورت حضوری انجام دهند و محدوده ی انتخاب خود را صرفا به محصولات فروشگاه های در دسترس خود محدود سازند.</p>
+
+<p>در نتیجه برای فروشندگان اینترنتی نیز چالش هایی نظیر محدود بودن جامعه مشتریان، برگشت محصول از سمت مشتری و... وجود دارد.</p>
+<p class="bold_box_post">تیم ما برای حل این مسئله و رفع فقدان پرو در فرایند خرید اینترنتی، برای مشتریان امکان پرو لباس را به صورت مجازی فراهم کرده است!</p>
+
+<div class="img_container">
+<div class="col-md-3 m-1"><img class="img_post alignnone size-full wp-image-114" src="http://localhost/wp/wp-content/uploads/2022/12/1-2.jpg" alt="" width="560" height="800" /></div>
+<div class="col-md-3 m-1"><img class="img_post alignnone size-full wp-image-115" src="http://localhost/wp/wp-content/uploads/2022/12/1-3.jpg" alt="" width="560" height="800" /></div>
+<div class="col-md-3 m-1"><img class="img_post alignnone size-full wp-image-113" src="http://localhost/wp/wp-content/uploads/2022/12/1-1.jpg" alt="" width="560" height="800" /></div>
+</div>
+<p class="img_footer_text">نمونه ای از پرو مجازی مانتو</p>
+
+<p><strong>پرو مجازی</strong> به این معنی است که به جای پوشیدن محصول حقیقی و فیزیکی، تصویری از تن پوش محصول در تن مشتری به او ارائه شود. پرو مجازی می تواند ارزش های جدیدی را برای مشتری خلق کند که در پرو حقیقی پوشاک امکان پذیر نمی باشد. یکی از کوچکترین مزایای پرو مجازی، حذف زمان تلف شده برای رفت و آمدها می باشد چرا که مشتری می تواند بدون خروج از منزل، محصولات یک فروشگاه در آن سر دنیا را پرو نماید و تنوع و محدوده ی انتخاب خود را گسترش دهد.</p>
+<div class="img_container">
+<div class="col-md-3 m-1"><img class="img_post alignnone size-full wp-image-114" src="http://localhost/wp/wp-content/uploads/2022/12/2-2.jpg" alt="" width="560" height="800" /></div>
+<div class="col-md-3 m-1"><img class="img_post alignnone size-full wp-image-115" src="http://localhost/wp/wp-content/uploads/2022/12/2-3.jpg" alt="" width="560" height="800" /></div>
+<div class="col-md-3 m-1"><img class="img_post alignnone size-full wp-image-113" src="http://localhost/wp/wp-content/uploads/2022/12/2-1.jpg" alt="" width="560" height="800" /></div>
+</div>
+<p class="img_footer_text">نمونه ای از پرو مجازی پیراهن</p>
+
+<p>
+ارزش بزرگتری که پرو مجازی می تواند به ارمغان ‌آورد امکان شخصی سازی محصول توسط مشتری است که هر تغییر دلخواه مشتری روی محصول در پرو مجازی روی تن مشتری اعمال شده و مشتری می تواند پوشاک مورد علاقه خود را با سلیقه خودش طراحی و شخصی سازی کند و در همان بستر نتیجه را بدون نیاز به تصورات ذهنی بلکه با چشم خود ببیند.</p>
+
+<div class="img_container row" style="align-items: center;">
+
+<div class="col-8">
+<div class="pb-3">
+<div  class="border border-5 border-dark">
+[video  width="1920" height="1080"  m4v="http://localhost/wp/wp-content/uploads/2022/12/Innovative-Solution-for-Clothes.m4v"][/video]
+</div></div>
+<p class="img_footer_text">مراحل پرو و سفارش لباس مجازی</p>
+</div>
+<div class="col-4">
+<div class="pb-2">
+<img class="img_post " src="http://localhost/wp/wp-content/uploads/2022/12/Screenshot-2022-11-29-161802.png" alt="" width="1642" height="1095" class="alignnone size-full wp-image-121" />
+</div>
+<img class="img_post" src="http://localhost/wp/wp-content/uploads/2022/12/Screenshot-2022-11-29-161730.png" alt="" width="1648" height="1095" class="alignnone size-full wp-image-120" />
+<p class="img_footer_text">نمونه ای از لباس سفارشی سازی شده</p>
+</div>
+
+</div>
+
+<div class="text-center">
+<p class="bold_box_post px-5" style="display:inline-block;">در حال حاضر تیم ما در حال توسعه و تکمیل فناوری ها و راهکارهای پرو مجازی لباس می باشد.</p>
+</div>
+</div>
+</div> -->
