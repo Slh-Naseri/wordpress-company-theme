@@ -1,22 +1,12 @@
 <?php
 
-// add_filter('nav_menu_css_class', 'special_nav_class', 10, 2);
-
-// function special_nav_class($classes, $item)
-// {
-//     if (in_array('current-menu-item', $classes)) {
-//         $classes[] = 'active ';
-//     }
-//     return $classes;
-// }
-
 function pageBanner()
 {
 ?>
 <div class="page-banner">
-    <div>
-    <img src="<?php $pageBannerImage = get_field('page_banner_bg');
-    echo $pageBannerImage['sizes']['pageBanner'] ?>" alt=""></div>
+    <div class="page-banner_image" style="background-image: url(<?php $pageBannerImage = get_field('page_banner_bg');
+    echo $pageBannerImage['url'] ?>);">
+    </div>
     <div class="page-banner__content container">
         <h1 class="page-banner__title">
             <?php the_field('title') ?>
@@ -47,7 +37,9 @@ add_action('wp_enqueue_scripts', 'add_files');
 
 function add_features()
 {
-    add_image_size('pageBanner', 1920, 780, true);
+    add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
+    add_image_size('projectLandscape', 400, 260, true);
 }
 
 add_action('after_setup_theme', 'add_features');
@@ -58,4 +50,32 @@ function Payam_Avaran()
     add_theme_support('title-tag');
 }
 add_action('after_setup_theme', 'Payam_Avaran');
+
+
+// Redirect subscriber accounts out of admin and onto homepage
+add_action('admin_init', 'redirectSubsToFrontend');
+
+function redirectSubsToFrontend()
+{
+    $ourCurrentUser = wp_get_current_user();
+
+    if (count($ourCurrentUser->roles) == 1 and $ourCurrentUser->roles[0] == 'subscriber') {
+        wp_redirect(site_url('/'));
+        exit;
+    }
+}
+
+
+add_action('wp_loaded', 'noSubsAdminBar');
+
+function noSubsAdminBar()
+{
+    show_admin_bar(false);
+    $ourCurrentUser = wp_get_current_user();
+
+    if (count($ourCurrentUser->roles) == 1 and $ourCurrentUser->roles[0] == 'subscriber') {
+        show_admin_bar(false);
+    }
+}
+
 ?>

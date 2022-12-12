@@ -26,7 +26,6 @@
                         <li class="nav-item ">
                             <a class="nav-link" aria-current="page" href="<?php echo site_url('/about-us') ?>">درباره
                                 ما</a>
-                            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
                         </li>
 
                         <li class="nav-item">
@@ -39,17 +38,21 @@
                                 پروژه ها
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <?php $post = get_post(72);
+                                setup_postdata($post); ?>
+                                <a class="dropdown-item" href="<?php the_permalink(); ?>">جوپاپل</a></li>
+                                <li>
+                                <?php $post = get_post(73);
+                                setup_postdata($post); ?><a class="dropdown-item" href="<?php the_permalink(); ?>">مزون لباسینو</a></li>
+                                <li>
+                                <?php $post = get_post(125);
+                                setup_postdata($post); ?><a class="dropdown-item" href="<?php the_permalink(); ?>">سفارش مجازی کفش</a></li>
+                                <li>
+                                <?php $post = get_post(108);
+                                setup_postdata($post); ?><a class="dropdown-item" href="<?php the_permalink(); ?>">پرو مجازی لباس</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -59,43 +62,3 @@
 </body>
 
 </html>
-<!-- <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <div> -->
-<!-- <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search"
-                            aria-hidden="true"></i></span> -->
-<!-- <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
-                    <h1 class="school-logo-text ">
-                        <a href="<?php echo site_url() ?>"><strong>پیام آوران هنر و فناوری شرق</strong></a>
-                    </h1>
-                </div>
-                <div class="site-header__menu group">
-                    <nav class="main-navigation">
-                        <ul>
-                            <li><a href="<?php echo site_url('/about-us') ?>">درباره ما</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button"
-                                    data-bs-toggle="dropdown">پروژه
-                                    ها</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item text-success" href="#">تست</a>
-                                    <a class="dropdown-item text-success" href="#">تست22222</a>
-                                    <a class="dropdown-item text-success" href="#">تست3</a>
-                                    <a class="dropdown-item text-success" href="#">4 </a>
-                                    <a class="dropdown-item text-success" href="#">تستتتتتتتت5</a>
-                                    <a class="dropdown-item text-success" href="#">تست 666666</a>
-                                </div>
-                            </li>
-                            <li><a href="#">صفحه اصلی</a></li>
-                        </ul>
-                    </nav> -->
-<!-- <div class="site-header__util">
-                    <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
-                    <a href="#" class="btn btn--small btn--dark-orange float-left">Sign Up</a>
-                    <span class="search-trigger js-search-trigger"><i class="fa fa-search"
-                            aria-hidden="true"></i></span>
-                </div> -->
-<!-- </div>
-
-            </nav>
-        </div> -->

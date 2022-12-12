@@ -3,7 +3,7 @@
 get_header(); ?>
 
 <div class="page-banner">
-  <div >
+  <div>
   <img src="<?php echo get_theme_file_uri('/images/ocean.jpg') ?>" alt=""></div>
   <div class="page-banner__content container container--narrow">
     <h1 class="page-banner__title">پروژه ها</h1>
@@ -18,9 +18,9 @@ get_header(); ?>
     while (have_posts()) {
       the_post(); ?>
   <div class="post-item">
-    <h2 class="headline headline--medium headline--post-title"><a href="<?php the_permalink(); ?>">
+    <h5 class="headline headline--medium headline--post-title"><a href="<?php the_permalink(); ?>">
         <?php the_title(); ?>
-      </a></h2>
+      </a></h5>
 
     <div class="metabox">
       این مطلب در
