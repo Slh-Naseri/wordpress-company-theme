@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 
 <div class="page-banner">
-    <div class="page-banner_image" style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg'); ?>);"></div>
-    <div class="page-banner__content container t-center c-white">
-        <h1 class="headline headline--large">Welcome!</h1>
+    <div class="page-banner_image"
+        style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg'); ?>);">
+        <div class="background-overlay"></div>
+        <h1 class="banner_headline c-white">Welcome!</h1>
     </div>
 </div>
 
@@ -39,7 +40,7 @@
     </button>
 </div>
 
-<div class="container news_container">
+<div class="news_container">
     <div class="layout_padding">
         <div class="row">
             <div class="col-lg-3 col-sm-6  padding_right_0 order-lg-3 order-2">
@@ -49,7 +50,9 @@
                     setup_postdata($post);
                 ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
-                    <?php the_post_thumbnail(); ?>
+                    <img src="<?php $pageBannerImage = get_field('page_banner_bg');
+                    echo $pageBannerImage['url'] ?>" alt="" width="700" height="800">
+                    <!-- <?php the_post_thumbnail(); ?> -->
                     <div class="text_box">
                         <h5 class="title_box">
                             <?php the_title(); ?>
@@ -79,12 +82,14 @@
             </div>
             <div class="col-lg-3 col-sm-6 padding_left_0 order-lg-1 order-3">
                 <?php $post_id = array(73, 72);
-                for ($i = 0; $i < 2; $i++) { 
+                for ($i = 0; $i < 2; $i++) {
                     $post = get_post($post_id[$i]);
                     setup_postdata($post);
-                    ?>
+                ?>
                 <div class="news_box" onclick="window.location='<?php the_permalink(); ?>';">
-                    <?php the_post_thumbnail(); ?>
+                    <img src="<?php $pageBannerImage = get_field('page_banner_bg');
+                    echo $pageBannerImage['url'] ?>" alt="" width="1200" height="800">
+                    <!-- <?php the_post_thumbnail(); ?> -->
                     <div class="text_box">
                         <h5 class="title_box">
                             <?php the_title(); ?>
