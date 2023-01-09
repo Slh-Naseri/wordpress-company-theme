@@ -14,7 +14,7 @@
     <header class="site-header">
         <nav class="navbar navbar-expand-lg main-navigation">
             <div class="container">
-                <h1 class="school-logo-text">
+                <h1 class="logo-text">
                     <a href="<?php echo site_url() ?>"><strong>پیام آوران هنر و فناوری شرق</strong></a>
                 </h1>
                 <button class="navbar-toggler fa fa-bars bg-light" type="button" data-bs-toggle="collapse"
@@ -27,11 +27,11 @@
                             <a class="nav-link" aria-current="page" href="<?php echo site_url('/about-us') ?>">درباره
                                 ما</a>
                         </li>
-
+                        <!-- 
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="<?php echo site_url('/blog') ?>">وبلاگ
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,18 +39,38 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-                                <?php $post = get_post(72);
-                                setup_postdata($post); ?>
-                                <a class="dropdown-item" href="<?php the_permalink(); ?>">جوپاپل</a></li>
+                                    <?php $post = get_post(72);
+                                    setup_postdata($post); ?>
+                                    <a class="dropdown-item" href="<?php the_permalink(); ?>">جوپاپل</a>
+                                </li>
                                 <li>
-                                <?php $post = get_post(73);
-                                setup_postdata($post); ?><a class="dropdown-item" href="<?php the_permalink(); ?>">مزون لباسینو</a></li>
+                                    <?php $post = get_post(156);
+                                    setup_postdata($post); ?>
+                                    <a class="dropdown-item" href="<?php the_permalink(); ?>">ربات تعلیق وزن دینامیک</a>
+                                </li>
                                 <li>
-                                <?php $post = get_post(125);
-                                setup_postdata($post); ?><a class="dropdown-item" href="<?php the_permalink(); ?>">سفارش مجازی کفش</a></li>
+                                    <?php $post = get_post(73);
+                                    setup_postdata($post); ?><a class="dropdown-item"
+                                        href="<?php the_permalink(); ?>">مزون
+                                        لباسینو</a>
+                                </li>
                                 <li>
-                                <?php $post = get_post(108);
-                                setup_postdata($post); ?><a class="dropdown-item" href="<?php the_permalink(); ?>">پرو مجازی لباس</a></li>
+                                    <?php $post = get_post(125);
+                                    setup_postdata($post); ?><a class="dropdown-item"
+                                        href="<?php the_permalink(); ?>">سفارش مجازی کفش</a>
+                                </li>
+                                <li>
+                                    <?php $post = get_post(108);
+                                    setup_postdata($post); ?><a class="dropdown-item"
+                                        href="<?php the_permalink(); ?>">پرو
+                                        مجازی لباس</a>
+                                </li>
+                                <li>
+                                    <?php $post = get_post(137);
+                                    setup_postdata($post); ?><a class="dropdown-item"
+                                        href="<?php the_permalink(); ?>">بازی
+                                        درمانی</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>

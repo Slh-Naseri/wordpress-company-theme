@@ -18,7 +18,9 @@ while (have_posts()) {
 
     <div class="generic-content">
         <!-- <img src="<?php the_post_thumbnail_url() ?>" alt=""> -->
-        <?php echo ("kjhgfdsa"); the_post_thumbnail();  the_content(); ?>
+        <?php echo ("kjhgfdsa");
+    the_post_thumbnail();
+    the_content(); ?>
     </div>
 </div>
 

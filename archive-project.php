@@ -5,7 +5,7 @@ get_header(); ?>
 <div class="page-banner">
   <div class="page-banner_image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg') ?>);">
     <div class="background-overlay"></div>
-    <div class="banner_headline c-white">
+    <div class="banner_headline">
       <h1 class="page-banner__title">پروژه ها</h1>
       <div class="page-banner__intro">
         <p>کارهایی که داریم انجام میدیم</p>
